@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>James Madison</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/lightbox.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top bg-white fondoMenu">
+    <div class="container-fluid fondoMenu">
+        <a href="index.html" class="enlace">
+            <img src="Imagenes/LOGO FINAL SIN FONDO_2x (1).webp" alt="" class="logo">
+        </a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Niveles
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="nivel_2.html">2 años</a></li>
+                <li><a class="dropdown-item" href="nivel_3.html">3 años</a></li>
+                <li><a class="dropdown-item" href="nivel_4.html">4 años</a></li>
+                <li><a class="dropdown-item" href="nivel_5.html">5 años</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Instalaciones 
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Salones.html">Salones</a></li>
+                <li><a class="dropdown-item" href="talleres.html">Talleres</a></li>
+                <li><a class="dropdown-item" href="Recreacional.html">Espacio Recreacional</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Admision.html">Admisión</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nosotros
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Nosotros.html">Sobre Nosotros</a></li>
+                <li><a class="dropdown-item" href="Historia.html">Nuestra Historia</a></li>
+                <li><a class="dropdown-item" href="Mision.html">Misión y Vocación</a></li>
+              </ul>
+            </li>            
+            <li class="nav-item">
+              <a class="btn" type="submit" href="matricula.html">Matricúlate</a>
+            </li>
+            
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <!--
+        CARRUSEL
+    -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Imagenes/banner_1.jpg" class="d-block w-100" alt="..." style="height: 450px;">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagenes/banner_2.jpg" class="d-block w-100" alt="..." style="height: 450px;">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagenes/banner_3.jpg" class="d-block w-100" alt="..." style="height: 450px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    <!--
+        NIVELES
+    -->
+    <div class="container mt-5">
+        <h1 class="text-center">Niveles</h1>
+          <div class="row g-2 div-niv">
+            <div class="col-md-3 lg-6 div-años" >
+              <a href="nivel_2.html">
+                <img src="Imagenes/piolin.jpg" class="img-años">
+              </a>
+            </div>
+            <div class="col-md-3 lg-6 div-años">
+              <a href="nivel_3.html">
+                <img src="Imagenes/mickey.jpg" class="img-años">
+              </a>
+            </div>
+            <div class="col-md-3 lg-6 div-años">  
+              <a href="nivel_4.html">
+                <img src="Imagenes/donald.jpg" class="img-años">
+              </a>
+            </div>
+            <div class="col-md-3 lg-6 div-años">
+              <a href="nivel_5.html">
+                <img src="Imagenes/winnie.jpg" class="img-años">
+              </a>
+            </div>
+          </div>
+    </div>
+    <br><br>
+
+    <!--
+      TALLERES Y SEDE
+    -->
+
+    <div class="container div-ta">
+      <div class="div-index">
+          <div class="div-index">
+            <a href="talleres.html">
+              <img src="Imagenes/TALLERES.png" class="img-index" alt="...">
+              
+            </a>
+            <a href="Salones.html">
+              <img src="Imagenes/Salones.png" class="img-index2" alt="...">
+              
+            </a>
+          </div>
+      </div>
+    </div>
+
+<br><br><br><br>
+
+  <!--
+    EVENTOS
+  -->
+
+
+
+
+    <div class="container mt-5">
+        <h1 class="text-center">Eventos</h1>
+        <div class="row row-cols-1 row-cols-md-4 g-3">
+          <div class="col">
+            <div class="card h-100">
+              <img src="Imagenes/ciencia.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Expociencia</h5>
+                <p class="card-text">Evento educativo donde los niños pequeños exhiben proyectos y actividades relacionadas con la ciencia y el descubrimiento. 
+                  A través de presentaciones creativas, juegos interactivos y demostraciones, los estudiantes
+                   comparten sus fascinantes experiencias de aprendizaje, fomentando el interés temprano en el mundo que les rodea.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Imagenes/antorchas.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Aniversario</h5>
+                <p class="card-text">El aniversario escolar se celebra con un paseo de antorchas y un festival de las artes, destacando la unidad y el talento creativo de los estudiantes en música, danza y arte. 
+                  Fortalece el sentido de comunidad y conmemora el crecimiento del colegio. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Imagenes/olimpiadas.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Olimpiadas</h5>
+                <p class="card-text">Las olimpiadas escolares son un evento deportivo que reúne a estudiantes en competiciones amistosas, promoviendo la actividad física, el trabajo en equipo y el espíritu deportivo.
+                   Incluyen diversas disciplinas y crean un ambiente festivo que fortalece la comunidad escolar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Imagenes/desfile.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Desfile Escolar</h5>
+                <p class="card-text">El desfile escolar, con su destacada participación, llevó al colegio a obtener el primer lugar en diversos eventos. Este logro no solo resalta el espíritu y la dedicación de los estudiantes, 
+                  sino que también refleja el compromiso del colegio con la excelencia y la participación activa en la comunidad.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <br><br>
+   <!--
+    PIE DE PAGINA
+   --> 
+   <footer>
+    <div class="footerContainer">
+      <div class="socialIcons">
+        <a href="https://www.facebook.com/JamesMadisonFamilyRed">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/jamesmadisonoficial/">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+      <div class="footerBottom">
+        <p>Copyright &copy;2023; Designed by <span class="designer">GRUPO 04</span></p>
+      </div>
+    </div>
+    
+   </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
